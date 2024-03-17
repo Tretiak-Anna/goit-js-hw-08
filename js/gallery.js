@@ -97,7 +97,7 @@ function onGalleryClick(event) {
 
   const instance = basicLightbox.create(
     `<div class = "modal">
-      <img src="${original}" alt="${description}" >
+      <img src="${original}" width="1112" height="640" alt="${description}" >
     </div>`
   );
 
